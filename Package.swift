@@ -12,18 +12,27 @@ let package = Package(
 
     products: [
         // Convenience: each product includes all modules so transitive imports resolve.
-        .library(name: "USDInteropAdvanced", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD"]),
-        .library(name: "USDInteropAdvancedWorkflows", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD"]),
-        .library(name: "USDInteropAdvancedEditing", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD"]),
-        .library(name: "USDInteropAdvancedInspection", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD"]),
-        .library(name: "USDInteropAdvancedCore", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD"]),
-        .library(name: "USDInteropAdvancedUtils", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD"]),
-        .library(name: "USDInteropAdvancedSession", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD"]),
-        .library(name: "USDInteropAdvancedSurgery", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD"]),
-        .library(name: "USDInteropAdvancedPlugins", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD"]),
-        .library(name: "USDInteropAdvancedAppleTools", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD"]),
-        .library(name: "AppleUSDSchemasUSD", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD"]),
+        .library(name: "USDInteropAdvanced", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD", "_USDInteropAdvancedBinaryDeps"]),
+        .library(name: "USDInteropAdvancedWorkflows", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD", "_USDInteropAdvancedBinaryDeps"]),
+        .library(name: "USDInteropAdvancedEditing", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD", "_USDInteropAdvancedBinaryDeps"]),
+        .library(name: "USDInteropAdvancedInspection", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD", "_USDInteropAdvancedBinaryDeps"]),
+        .library(name: "USDInteropAdvancedCore", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD", "_USDInteropAdvancedBinaryDeps"]),
+        .library(name: "USDInteropAdvancedUtils", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD", "_USDInteropAdvancedBinaryDeps"]),
+        .library(name: "USDInteropAdvancedSession", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD", "_USDInteropAdvancedBinaryDeps"]),
+        .library(name: "USDInteropAdvancedSurgery", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD", "_USDInteropAdvancedBinaryDeps"]),
+        .library(name: "USDInteropAdvancedPlugins", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD", "_USDInteropAdvancedBinaryDeps"]),
+        .library(name: "USDInteropAdvancedAppleTools", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD", "_USDInteropAdvancedBinaryDeps"]),
+        .library(name: "AppleUSDSchemasUSD", targets: ["USDInteropAdvancedCore", "USDInteropAdvancedUtils", "USDInteropAdvancedAppleTools", "USDInteropAdvancedPlugins", "USDInteropAdvancedEditing", "USDInteropAdvancedInspection", "USDInteropAdvancedSession", "USDInteropAdvancedSurgery", "USDInteropAdvancedWorkflows", "USDInteropAdvanced", "AppleUSDSchemasUSD", "_USDInteropAdvancedBinaryDeps"]),
     ],
+
+    dependencies: [
+        // Pin to the exact revisions used when compiling these XCFrameworks.
+        // This avoids accidental ABI drift where the binary module interface imports OpenUSD/USDInterop
+        // symbols that differ from whatever "latest" happens to be at build time.
+        .package(url: "https://github.com/Reality2713/USDInterop", revision: "25ce64a6dddeddfd20b3c7dc2b285a866a0fdb74"),
+        .package(url: "https://github.com/Reality2713/SwiftUsd.git", revision: "0d6d585427757ff1b80ec25ba65926fb618f9fc0"),
+    ],
+
     targets: [
         .binaryTarget(
             name: "USDInteropAdvancedCore",
@@ -79,6 +88,22 @@ let package = Package(
             name: "AppleUSDSchemasUSD",
             url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.8/Artifacts/v0.2.8/AppleUSDSchemasUSD.xcframework.zip",
             checksum: "0ed005a4a8f3120ddcf2847e45702a798689a1e9ccea656a7092a7e5b33fad7d"
+        ),
+
+        // SwiftPM binary targets cannot declare dependencies, but the `.swiftinterface` files for the
+        // XCFrameworks import OpenUSD/USDInterfaces/USDInteropCxx. This sidecar target declares those
+        // dependencies so consumers can import the binaries without "no such module OpenUSD".
+        .target(
+            name: "_USDInteropAdvancedBinaryDeps",
+            dependencies: [
+                .product(name: "USDInteropCxx", package: "USDInterop"),
+                .product(name: "USDInterfaces", package: "USDInterop"),
+                .product(name: "OpenUSD", package: "SwiftUsd"),
+            ],
+            path: "Sources/_USDInteropAdvancedBinaryDeps",
+            swiftSettings: [
+                .interoperabilityMode(.Cxx),
+            ]
         ),
     ]
 )
