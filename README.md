@@ -2,7 +2,7 @@
 
 This repository publishes prebuilt XCFrameworks for a private USDInteropAdvanced source package.
 
-- Package version: 0.2.11
+- Package version: 0.2.12
 - Built from USDInteropAdvanced source tag: v0.2.8
 
 ## Products
@@ -12,3 +12,4 @@ This repository publishes prebuilt XCFrameworks for a private USDInteropAdvanced
 
 ## Notes
 - These binaries are currently built for macOS arm64 only.
+- Private/module-scoped Swift interfaces are intentionally not shipped.
