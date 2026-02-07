@@ -4,7 +4,5 @@
 // and without a source target depending on those modules SwiftPM will not provide them when a client
 // imports the binary frameworks.
 
-import OpenUSD
 import USDInterfaces
 import USDInteropCxx
-

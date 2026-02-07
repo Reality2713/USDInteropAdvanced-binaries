@@ -30,7 +30,6 @@ let package = Package(
         // This avoids accidental ABI drift where the binary module interface imports OpenUSD/USDInterop
         // symbols that differ from whatever "latest" happens to be at build time.
         .package(url: "https://github.com/Reality2713/USDInterop", revision: "25ce64a6dddeddfd20b3c7dc2b285a866a0fdb74"),
-        .package(url: "https://github.com/Reality2713/SwiftUsd.git", revision: "0d6d585427757ff1b80ec25ba65926fb618f9fc0"),
     ],
 
     targets: [
@@ -98,7 +97,6 @@ let package = Package(
             dependencies: [
                 .product(name: "USDInteropCxx", package: "USDInterop"),
                 .product(name: "USDInterfaces", package: "USDInterop"),
-                .product(name: "OpenUSD", package: "SwiftUsd"),
             ],
             path: "Sources/_USDInteropAdvancedBinaryDeps",
             swiftSettings: [
