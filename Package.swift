@@ -22,58 +22,58 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AppleUSDSchemasUSD",
-            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.14/Artifacts/v0.2.14/AppleUSDSchemasUSD-0.2.14.xcframework.zip",
-            checksum: "4f1f20b9acabf6c1529b19d2a6f66ccd08f512a52c11e91a4606a5d490bec63f"
+            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.15/Artifacts/v0.2.15/AppleUSDSchemasUSD-0.2.15.xcframework.zip",
+            checksum: "6f5d010f8e7fea961c9d0eb0a2ad495844ac3c044bd5e2ac790ae24d98f36457"
         ),
         .binaryTarget(
             name: "USDInteropAdvanced",
-            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.14/Artifacts/v0.2.14/USDInteropAdvanced-0.2.14.xcframework.zip",
-            checksum: "d391c17f62e34920323566c9ddae5d87bd1fe4c1a31eeb29d4d84cb73a1ea2df"
+            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.15/Artifacts/v0.2.15/USDInteropAdvanced-0.2.15.xcframework.zip",
+            checksum: "60d6c5463f2b13e74005f5ea078f17146106ff96a55f6c2bc6cd4df4c09f661e"
         ),
         .binaryTarget(
             name: "USDInteropAdvancedAppleTools",
-            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.14/Artifacts/v0.2.14/USDInteropAdvancedAppleTools-0.2.14.xcframework.zip",
-            checksum: "aeac165cdf2f829cedfa24bd58aff54d19e56271027c174762bdfeaa915a9932"
+            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.15/Artifacts/v0.2.15/USDInteropAdvancedAppleTools-0.2.15.xcframework.zip",
+            checksum: "5d9bc2bc503f9d4c64a1d03c9dc76cefa38d9371214c82a05f66b94120d350a5"
         ),
         .binaryTarget(
             name: "USDInteropAdvancedCore",
-            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.14/Artifacts/v0.2.14/USDInteropAdvancedCore-0.2.14.xcframework.zip",
-            checksum: "2e616904636da2c2cd536c66374d1ed257fc8c3c71095b6b537cac724556d228"
+            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.15/Artifacts/v0.2.15/USDInteropAdvancedCore-0.2.15.xcframework.zip",
+            checksum: "c4b2f33a719f2d4f648023d623d7f95956be065a25d9ac1c1cdbbb85cc939467"
         ),
         .binaryTarget(
             name: "USDInteropAdvancedEditing",
-            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.14/Artifacts/v0.2.14/USDInteropAdvancedEditing-0.2.14.xcframework.zip",
-            checksum: "55610f02233a74fdecddf2f978091ef47693375b2684f5ffecc38519370f9e2e"
+            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.15/Artifacts/v0.2.15/USDInteropAdvancedEditing-0.2.15.xcframework.zip",
+            checksum: "c8a27cb37ac58f682cb9e77aa0064c811981831dcc37046b1bcac843f4980155"
         ),
         .binaryTarget(
             name: "USDInteropAdvancedInspection",
-            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.14/Artifacts/v0.2.14/USDInteropAdvancedInspection-0.2.14.xcframework.zip",
-            checksum: "f204c7bfe31cf94ee5dbf53af5fce76ecc45baa5bb108a53b7d361532456afb1"
+            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.15/Artifacts/v0.2.15/USDInteropAdvancedInspection-0.2.15.xcframework.zip",
+            checksum: "81e222eaf81f6df85792650c287e3e345afd32fd23e33954a73f926a25076671"
         ),
         .binaryTarget(
             name: "USDInteropAdvancedPlugins",
-            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.14/Artifacts/v0.2.14/USDInteropAdvancedPlugins-0.2.14.xcframework.zip",
-            checksum: "25a16069800a6442e6de5ee6fb7405ac8c703c1107548fb3c30dccb399d9c52f"
+            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.15/Artifacts/v0.2.15/USDInteropAdvancedPlugins-0.2.15.xcframework.zip",
+            checksum: "d29d992bd817464dad24bca410170479e11dd16955f528c6d291488c723b80bb"
         ),
         .binaryTarget(
             name: "USDInteropAdvancedSession",
-            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.14/Artifacts/v0.2.14/USDInteropAdvancedSession-0.2.14.xcframework.zip",
-            checksum: "2c51a6bb0c8011f0a4fd214777f9112c404ef454be5d65d7c5de1390d88ab62e"
+            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.15/Artifacts/v0.2.15/USDInteropAdvancedSession-0.2.15.xcframework.zip",
+            checksum: "e2ce8f911895b212098f14b38352dde0f52882996590e1c1a99e6f8757a80f30"
         ),
         .binaryTarget(
             name: "USDInteropAdvancedSurgery",
-            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.14/Artifacts/v0.2.14/USDInteropAdvancedSurgery-0.2.14.xcframework.zip",
-            checksum: "8cbcf6e844e581aecb6db9c16707ae5f68ed552e8077a7a1948c0d17b2feb5d5"
+            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.15/Artifacts/v0.2.15/USDInteropAdvancedSurgery-0.2.15.xcframework.zip",
+            checksum: "5a313c9e0f6050767e4533d9ec0a46dfd903cb418c7389c75ba20bbf184a1437"
         ),
         .binaryTarget(
             name: "USDInteropAdvancedUtils",
-            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.14/Artifacts/v0.2.14/USDInteropAdvancedUtils-0.2.14.xcframework.zip",
-            checksum: "f607b0c21bdf593e618db5b28b947a481fe8b0f3f574bd41acde54ca73f490cc"
+            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.15/Artifacts/v0.2.15/USDInteropAdvancedUtils-0.2.15.xcframework.zip",
+            checksum: "57f236786085200be48b757a59e2f5ba404714331712cf479b72f41dbe3e2c36"
         ),
         .binaryTarget(
             name: "USDInteropAdvancedWorkflows",
-            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.14/Artifacts/v0.2.14/USDInteropAdvancedWorkflows-0.2.14.xcframework.zip",
-            checksum: "e60711f48013cad4de19d55721c3823ba9c789fc4639c80d390103ef650dbe8c"
+            url: "https://raw.githubusercontent.com/Reality2713/USDInteropAdvanced-binaries/v0.2.15/Artifacts/v0.2.15/USDInteropAdvancedWorkflows-0.2.15.xcframework.zip",
+            checksum: "17d34a65f2831d53ecdc24d9f6a405cdb1fa4a74504f6e9719171489956908ea"
         ),
     ]
 )
